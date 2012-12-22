@@ -3,9 +3,11 @@
 int main()
 {
     int a = 0;
-    a++;
+    a += 2;
+    printf("a %d", a);
     int b = 1;
-    int c = a + b--;
+    int c = 2;
+    c = a + b--;
     c--;
     if (a > c)
         return 1;
